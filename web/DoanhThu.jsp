@@ -1,0 +1,167 @@
+<%-- 
+    Document   : listAccount
+    Created on : Oct 8, 2023, 2:03:15 AM
+    Author     : Admin
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@page import="registration.Item"%>
+<%@page import="java.util.ArrayList"%>
+<%@page import="registration.Order"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <style>
+      .xemthem{
+    font-weight: 500;
+    color: #fff;
+    transition: background 1.0s;
+    background: #2b2d29;
+    border-radius: 11px;
+    z-index: 10;
+    
+    font-size: 16px;
+    position: relative;   
+}.xemthem:hover{
+    background: #222321ba;
+    color: #fff;
+}
+.dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 2;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        /* Style cho các mục trong dropdown */
+        .dropdown-content a {
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        /* Màu khi di chuột qua các mục */
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+        .input1{
+                height: 24px;
+    width: 80px;
+    border-radius: 5px;
+    margin-right: 150px;
+        }
+  </style>
+    </head>
+    <body>
+        <div style="text-align: center;font-family: cursive;">
+        <h1>Doanh Thu</h1>
+        </div>
+               
+        <form action="doanhThu">
+            <div style="display:flex;font-family: cursive;margin-top: 50px">
+                <span style="margin-right: 50px;margin-left: 228px;">Chọn thời gian: </span>
+                Ngày: <input value="" type="number" name="Ngay" class="input1" min="1">
+                Tháng: <input value="" type="number" name="Thang" class="input1" min="1">
+                Năm: <input value="" type="number" name="Nam" class="input1" min="1">
+               <input value="xacnhan" type="submit" name="pick" class="input1" min="1">
+           </div>
+        </form>
+        
+        
+
+        
+        <%
+           ArrayList<Order> list=(ArrayList<Order>) request.getAttribute("LISTORDER");  
+           if(list!=null){
+        %>
+        <table class="table table-hover" border="1" style="margin-top: 50px;table-layout: fixed">
+            <thead style="background-color: #26262a;color: #ffffff">
+                <tr style="font-family: cursive;">
+                    <th>Date</th>
+                    <th>Order ID</th>
+                    <th>Username</th>
+                    <th>Total price</th>                   
+                </tr>
+            </thead>
+            <tbody>                 
+                <%
+                 for(Order dto:list){
+                    
+                %>
+                       
+                    <tr style="font-family: cursive;">
+                   
+                    <td>
+                        
+                         <%=dto.getNgayTao()%>
+                    </td> 
+                    <td>
+                      <%=dto.getOrdersID()%>
+                    </td>
+                    <td>
+                        <%=dto.getUsername()%>
+                    </td> 
+                    <td>
+                        <%=dto.getTotal()%>đ
+                    </td> 
+                    
+                </tr>
+
+           
+
+                
+<%}%>
+            
+ </tbody>
+        </table>
+ 
+ <%}
+int doanhthu=(int)request.getAttribute("DOANHTHU"); 
+ if(doanhthu>=0){
+ %>
+
+ <h3 style="text-align: center;font-family: cursive;border-radius: 5px;margin-top: 50px;">Tổng doanh thu: <%=doanhthu%>đ</h3>
+ <%}%>
+<div style="display: flex;   margin-top: 100px;padding-bottom: 20px;">
+        <a class="xemthem navbar-brand" href="banhngot.jsp" style='text-decoration: none;margin-left: 47%'>Home </a>        
+    </div>
+<script>
+    function searchByName(param){
+        var txtSearch=param.value; 
+        $.ajax({
+            url: "/banhngott/searchByAjax",
+            type: "get",
+            data: {
+                txt: txtSearch
+            },
+            success: function(data){
+                var row = document.getElementById("container");
+
+                row.innerHTML = data;
+                
+            },
+            error: function(xhr){
+                
+            }
+        });
+    }
+    </script>
+    </body>
+</html>

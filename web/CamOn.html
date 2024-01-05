@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        .close-button {
+            font-weight: 500;
+            color: #fff;
+            transition: background 1.0s;
+            background: #2b2d29;
+            border-radius: 11px;
+            z-index: 10;
+            font-size: 16px;
+            position: relative;
+        }
+        .xemthem{
+    font-weight: 500;
+    color: #fff;
+    transition: background 1.0s;
+    background: #2b2d29;
+    border-radius: 11px;
+    z-index: 10;
+    
+    font-size: 16px;
+    position: relative;   
+}.xemthem:hover{
+    background: #222321ba;
+    color: #fff;
+}
+
+        .close-button:hover {
+            background: #222321ba;
+            color: #fff;
+        }
+
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            z-index: 1;
+            display: block; /* Luôn hiển thị overlay */
+        }
+
+        .centered-div {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ccc;
+            text-align: center;
+            height: 220px;
+            border-radius: 9px;
+        }
+        
+        .close-icon {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay">
+        <div class="centered-div">
+            <h2 style="font-weight: 700;font-family: cursive;">Cảm ơn bạn đã mua hàng của chúng tôi</h2>
+            <div style="margin-top:30px">
+                <a class="xemthem navbar-brand" style="width: 150px;padding:8px;height: 50px;margin-top: 42px;" href="banhngot.jsp"><p style="margin-top: 8px;">Trang chủ</p></a>
+                <a class="xemthem navbar-brand" style="width: 150px ;height: 50px;border:0px;margin-left: 260px;margin-top: 42px;" href="sanpham">Tiếp tục mua</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Có thể thêm mã JavaScript ở đây nếu cần
+    </script>
+</body>
+</html>

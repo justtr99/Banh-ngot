@@ -1,0 +1,194 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 3, 2023, 2:38:31 PM
+    Author     : Admin
+*/
+
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+
+}
+/* Add a gray background color and some padding to the footer */
+footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+}
+
+.carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+    min-height:200px;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 800px) {
+    .carousel-caption {
+        display: none;
+    }
+}
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+  
+  /* Add a gray background color and some padding to the footer */ 
+.carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+    min-height:200px;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 800px) {
+  .carousel-caption {
+    display: none; 
+  }
+}
+.hover-div {
+    width: 300px;
+    height: 300px;
+    background: #f0f0f0;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.5s;
+}
+
+.hover-div img {
+    max-width: 100%;
+    height: auto;
+    transition: opacity 0.5s;
+}
+
+.hover-div:hover {
+    transform: translateY(-20px);
+}
+
+.hover-div:hover img {
+    opacity: 0.7;
+}
+.link1{
+    height: 60px;
+    width: 220px;
+
+}
+.anh1{
+    height: 60px;
+    width: 220px;
+    display: flex;  
+    background-color: #CBCBC9;
+
+}
+.anhphu1{
+    height: 46px;
+    width: 40px;    
+    margin-top: 10px;
+    margin-left: 8px;
+}
+.text1{
+    margin-top: 23px;
+    margin-left: 8px;
+    color: #f0f0f0;
+}
+.anhphu2{
+    width: 360px;
+    height: 360px
+}
+.link2{
+    width: 360px;
+    height: 360px
+}
+.sell1{
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    background: #fff;
+    display: flex;
+    height: 176px;
+    padding: 8px;
+}
+.anhphu3{
+    width: 200px;
+    height: 140px;
+    margin-top: -8px;
+    margin-left: 8px;
+
+}
+.link3{
+    display: flex
+    
+}
+.tenbanh1{
+    font-weight: 600;
+    font-size: 17px;
+    color:black;
+}
+.tenbanh1:hover{
+    color: #986226;
+}
+.xemthem{
+    font-weight: 500;
+    color: #fff;
+    transition: background 1.0s;
+    background: #ddc3af;
+    border-radius: 11px;
+    z-index: 10;
+    padding: 15px 30px;
+    font-size: 16px;
+    position: relative;   
+}.xemthem:hover{
+    background: #be7352;
+    
+}
+.zoomable-container {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.zoomable-image {
+    transition: transform 0.3s ease;
+}
+
+.zoomable-container:hover .zoomable-image {
+    transform: scale(1.2);
+}
+
+.image-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.img1{
+    width: 555px;
+    height: 354px;
+}
+.imgphu1{
+    width: 555px;
+    height: 354px;
+}
+.text2{
+    text-align: center;
+}
+.text2 h2{
+    font-size: 38px;
+    width: 76vw;
+    margin-left: 170px;
+    color: #BE9E72;
+    font-weight: 600;
+}
+.text3{
+    width: 27vw;
+    text-align: justify;
+    font-family: cursive;
+    font-size: 16px;
+}
+
