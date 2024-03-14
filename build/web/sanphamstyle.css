@@ -1,0 +1,497 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 7, 2023, 6:34:12 PM
+    Author     : Admin
+*/
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+
+}
+/* Add a gray background color and some padding to the footer */
+footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+}
+
+.carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+    min-height:200px;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 800px) {
+    .carousel-caption {
+        display: none;
+    }
+}
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+  
+  /* Add a gray background color and some padding to the footer */ 
+.carousel-inner img {
+    width: 100%; /* Set width to 100% */
+    margin: auto;
+    min-height:200px;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 800px) {
+  .carousel-caption {
+    display: none; 
+  }
+}
+breadcrumb-wapper{
+        height: 300px;
+        padding: 30px 0;
+        margin-bottom: 30px;
+        background: url(//theme.hstatic.net/200000247827/1000692826/14/breadcrumb_bg.png?v=901);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    
+    breadcrumb-overlay{
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.6);
+        z-index: 1;
+    }
+    
+    breadcrumb-content{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        webkit-transform: translate(-50%, 50%);
+        transform: translate(-50%, -50%);
+        z-index: 9;
+        width: 90%;
+    }
+    
+    .wapper{
+        *zoom: 1;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+.form-control, .btn {
+    min-height: 38px;
+    border-radius: 2px;
+}
+.btn {        
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.navbar {
+                margin-bottom: 0;
+                border-radius: 0;
+            }
+            
+            
+            html, body {
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+html {
+    background-color: #f2f2f2;
+}
+.clear1{
+    clear: both;
+}
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+*, input, :before, :after {
+    box-sizing: border-box;
+}
+
+/*html[Attributes Style] {
+    -webkit-locale: "vi";
+}*/
+
+:root {
+    view-transition-name: root;
+}
+
+html {
+    display: block;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+*, input, :before, :after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+html, body {
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+body {
+    position: relative;
+    line-height: normal !important;
+}
+
+body, input, textarea, button, select {
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: JosefinSans-Regular !important;
+    color: #BE9E72;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    background-color: #BE9E72;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+.template-collection #breadcrumb-wrapper {
+    margin-bottom: 0px;
+}
+
+#breadcrumb-wrapper {
+    height: 300px;
+    padding: 30px 0;
+    margin-bottom: 30px;
+    background: url(//theme.hstatic.net/200000247827/1000692826/14/breadcrumb_bg.png?v=901);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+*, input, :before, :after {
+    box-sizing: border-box;
+}
+user agent stylesheet
+section {
+    display: block;
+}
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+body {
+    position: relative;
+    line-height: normal !important;
+}
+body, input, textarea, button, select {
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: JosefinSans-Regular !important;
+    color: #BE9E72;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+}
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+}
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: transparent;
+}
+
+#breadcrumb-wrapper .breadcrumb-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 9;
+    width: 90%;
+}
+
+#breadcrumb-wrapper .breadcrumb-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+}
+
+#breadcrumb-wrapper .breadcrumb-content .breadcrumb-big h2{
+    font-size: 24px;
+    color: #BE9E72;
+    padding: 0px;
+    margin: 0px 0px 5px 0px;
+    text-transform: uppercase !important;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-weight: bold !important;
+}
+
+body, input, textarea, button, select {
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: JosefinSans-Regular !important;
+    color: #BE9E72;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+}
+
+/*#breadcrumb-wrapper .breadcrumb-content .breadcrumb-small{
+    font-size: 18px;
+    color: #fff;
+    padding: 0px;
+    margin: 0px 0px 5px 0px;
+    font-family: JosefinSans-Regular,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace
+        ;
+}*/
+
+#breadcrumb-wrapper .breadcrumb-content .breadcrumb-small a, #breadcrumb-wrapper .breadcrumb-content .breadcrumb-small span {
+      color: #fff; }
+
+#breadcrumb-wrapper .breadcrumb-content .breadcrumb-small a:hover {
+      color: #BE9E72; }
+
+.main-content {
+    display: block;
+}
+
+#PageContainer {
+    /* overflow: hidden; */
+    position: inherit;
+    z-index: 99;
+}
+.is-moved-by-drawer {
+    -webkit-transform: translateZ(0);
+    will-change: transform;
+    transition: all 0.4s cubic-bezier(0.46, 0.01, 0.32, 1);
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+
+#collection-wrapper {
+    background-color: #ebedef;
+    padding-top: 30px;
+}
+
+.wrapper {
+    padding: 0 30px;
+}
+
+.grid, .grid--rev, .grid--full, .grid-uniform {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: -30px;
+}
+.grid, .grid--rev, .grid--full, .grid-uniform {
+    *zoom: 1;
+}
+
+.large--one-whole {
+    width: 100%;
+}
+.grid__item {
+    box-sizing: border-box;
+    float: left;
+    min-height: 1px;
+    padding-left: 30px;
+    vertical-align: top;
+    width: 100%;
+}
+
+.hide {
+    display: none !important;
+}
+
+.panel.sticky {
+    padding: 10px 0px;
+    border-bottom: 2px solid;
+}
+
+.no-bullets {
+    list-style: none outside;
+    margin-left: 0;
+}
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+ul, ol {
+    margin: 0 0 15px 20px;
+    padding: 0;
+}
+
+.grid, .grid--rev, .grid--full, .grid-uniform {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: -30px;
+}
+
+#owl-home-collection-slider1 .grid__item {
+    margin-bottom: 30px;
+}
+
+#owl-home-collection-slider1 .item {
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    background: #fff;
+    display: flex;
+}
+
+.item .meta {
+    height: 176px;
+}
+
+#owl-home-collection-slider1 .item .img {
+    width: 124px;
+    height: 124px;
+    margin-left: 16px;
+}
+
+.item .meta .description {
+    height: 85px;
+}
+
+div {
+    display: block;
+}
+
+btn-block{
+    background: #BE9E72
+}
+
+.sanpham1{
+    background-color: #ebedef;  
+    padding: 20px;
+    width: 100vw;
+    
+}
+
+.items{
+    width: 521px;
+    height: 176px;
+    background-color: var(--white);
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-right:29px;
+    margin-top: 23px;
+}
+.menusp{
+        padding-top: 10px;
+    width: 100%;
+    height: 19px;
+    padding-top: 15px;
+    padding-bottom: 44px;
+    background-color: rgb(255, 255, 255);
+}
+.linksp{
+    color: #212529;
+}
+.textsp1{
+    color: #000;
+    font-size: 20px;
+    font-family: cursive;
+
+}
+#text3{
+       font-weight: 700;
+    font-family: cursive;
+    color: black;
+}
+.sapxep{
+    margin-left: 780px;
+    margin-top: 8px;
+
+}

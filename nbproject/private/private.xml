@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="3">
+        <file>
+            <url>web/listAccount.jsp</url>
+            <bookmark id="3">
+                <name/>
+                <line>55</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>web/doUong.jsp</url>
+            <bookmark id="1">
+                <name/>
+                <line>0</line>
+                <key/>
+            </bookmark>
+        </file>
+        <file>
+            <url>web/SreachByName.jsp</url>
+            <bookmark id="2">
+                <name/>
+                <line>271</line>
+                <key/>
+            </bookmark>
+        </file>
+    </editor-bookmarks>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group name="java_web">
+            <file>file:/D:/java_web/banhngott/src/java/data/DBContext.java</file>
+        </group>
+    </open-files>
+</project-private>

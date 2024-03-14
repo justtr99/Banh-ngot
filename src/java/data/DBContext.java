@@ -20,9 +20,9 @@ public class DBContext implements Serializable{
         //2. Create Connection String
         String url="jdbc:sqlserver:"
                 + "//localhost:1433"
-                + ";databaseName=AssignmentPRJ";
+                + ";databaseName=AssignmentPRJ_test";
         //3. Open Connection
-        Connection con=DriverManager.getConnection(url,"sa","123");
+        Connection con=DriverManager.getConnection(url,"sa","123456");
         return con;
     }
 }

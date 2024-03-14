@@ -1,0 +1,279 @@
+
+.checkbox-wrapper-24 .checkbox {
+    display: table-cell;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  .checkbox-wrapper-24 label {
+    display: inline-block;
+    color: #333;
+    cursor: pointer;
+    position: relative;
+  }
+  .checkbox-wrapper-24 label span {
+    display: inline-block;
+    position: relative;
+    background-color: transparent;
+    width: 25px;
+    height: 25px;
+    transform-origin: center;
+    border: 2px solid #333;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
+    transition: background-color 150ms 200ms, transform 350ms cubic-bezier(0.78, -1.22, 0.17, 1.89);
+  }
+  .checkbox-wrapper-24 label span:before {
+    content: "";
+    width: 0px;
+    height: 2px;
+    border-radius: 2px;
+    background: #333;
+    position: absolute;
+    transform: rotate(45deg);
+    top: 13px;
+    left: 9px;
+    transition: width 50ms ease 50ms;
+    transform-origin: 0% 0%;
+  }
+  .checkbox-wrapper-24 label span:after {
+    content: "";
+    width: 0;
+    height: 2px;
+    border-radius: 2px;
+    background: #333;
+    position: absolute;
+    transform: rotate(305deg);
+    top: 16px;
+    left: 10px;
+    transition: width 50ms ease;
+    transform-origin: 0% 0%;
+  }
+  .checkbox-wrapper-24 label:hover span:before {
+    width: 5px;
+    transition: width 100ms ease;
+  }
+  .checkbox-wrapper-24 label:hover span:after {
+    width: 10px;
+    transition: width 150ms ease 100ms;
+  }
+
+  .checkbox-wrapper-24 input[type=checkbox] {
+    display: none;
+  }
+  .checkbox-wrapper-24 input[type=checkbox]:checked + label span {
+    background-color: #333;
+    transform: scale(1.25);
+  }
+  .checkbox-wrapper-24 input[type=checkbox]:checked + label span:after {
+    width: 10px;
+    background: #fff;
+    transition: width 150ms ease 100ms;
+  }
+  .checkbox-wrapper-24 input[type=checkbox]:checked + label span:before {
+    width: 5px;
+    background: #fff;
+    transition: width 150ms ease 100ms;
+  }
+  .checkbox-wrapper-24 input[type=checkbox]:checked + label:hover span {
+    background-color: #333;
+    transform: scale(1.25);
+  }
+  .checkbox-wrapper-24 input[type=checkbox]:checked + label:hover span:after {
+    width: 10px;
+    background: #fff;
+    transition: width 150ms ease 100ms;
+  }
+  .checkbox-wrapper-24 input[type=checkbox]:checked + label:hover span:before {
+    width: 5px;
+    background: #fff;
+    transition: width 150ms ease 100ms;
+  }
+
+
+
+
+
+
+  .checkbox-wrapper-25 .checkbox {
+    display: table-cell;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  .checkbox-wrapper-25 label {
+    display: inline-block;
+    color: #333;
+    cursor: pointer;
+    position: relative;
+  }
+  .checkbox-wrapper-25 label span {
+    display: inline-block;
+    position: relative;
+    background-color: transparent;
+    width: 25px;
+    height: 25px;
+    transform-origin: center;
+    border: 2px solid #333;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
+    transition: background-color 150ms 200ms, transform 350ms cubic-bezier(0.78, -1.22, 0.17, 1.89);
+  }
+  .checkbox-wrapper-25 label span:before {
+    content: "";
+    width: 0px;
+    height: 2px;
+    border-radius: 2px;
+    background: #333;
+    position: absolute;
+    transform: rotate(45deg);
+    top: 13px;
+    left: 9px;
+    transition: width 50ms ease 50ms;
+    transform-origin: 0% 0%;
+  }
+  .checkbox-wrapper-25 label span:after {
+    content: "";
+    width: 0;
+    height: 2px;
+    border-radius: 2px;
+    background: #333;
+    position: absolute;
+    transform: rotate(305deg);
+    top: 16px;
+    left: 10px;
+    transition: width 50ms ease;
+    transform-origin: 0% 0%;
+  }
+  .checkbox-wrapper-25 label:hover span:before {
+    width: 5px;
+    transition: width 100ms ease;
+  }
+  .checkbox-wrapper-25 label:hover span:after {
+    width: 10px;
+    transition: width 150ms ease 100ms;
+  }
+
+  .checkbox-wrapper-25 input[type=checkbox] {
+    display: none;
+  }
+  .checkbox-wrapper-25 input[type=checkbox]:checked + label span {
+    background-color: #333;
+    transform: scale(1.25);
+  }
+  .checkbox-wrapper-25 input[type=checkbox]:checked + label span:after {
+    width: 10px;
+    background: #fff;
+    transition: width 150ms ease 100ms;
+  }
+  .checkbox-wrapper-25 input[type=checkbox]:checked + label span:before {
+    width: 5px;
+    background: #fff;
+    transition: width 150ms ease 100ms;
+  }
+  .checkbox-wrapper-25 input[type=checkbox]:checked + label:hover span {
+    background-color: #333;
+    transform: scale(1.25);
+  }
+  .checkbox-wrapper-25 input[type=checkbox]:checked + label:hover span:after {
+    width: 10px;
+    background: #fff;
+    transition: width 150ms ease 100ms;
+  }
+  .checkbox-wrapper-25 input[type=checkbox]:checked + label:hover span:before {
+    width: 5px;
+    background: #fff;
+    transition: width 150ms ease 100ms;
+  }
+
+body{
+    background-color:white;
+}
+.logo1{
+    width: 500px;
+    height: 260px;
+}
+.link1{
+    display: flex;
+    color: black;
+    text-decoration: none;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+.input1{
+    width: 400px;
+    height: 37px;
+    border-radius: 5px;
+    border: 1px #d9d9d9 solid;  
+    margin-bottom: 20px;
+}
+.checkbox-wrapper-24{
+    border: 1px #d9d9d9 solid;  
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.checkbox-wrapper-25{
+    border: 1px #d9d9d9 solid;  
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.resizeable-div {
+    width: 200px; /* Độ rộng ban đầu của div */
+    max-height: 350px; /* Chiều cao tối đa của div */
+    border-bottom: 1px solid #c7c7c7;
+    border-top: 1px solid #c7c7c7;
+    overflow: hidden;
+    transition: all 0.5s; /* Áp dụng hiệu ứng chuyển đổi */
+    resize: vertical; /* Cho phép kéo dài lên xuống */
+    overflow: auto; /* Cho phép cuộn nếu nội dung quá lớn */
+  }
+  .input2{   
+    border-radius: 5px;
+    border: 1px #d9d9d9 solid;  
+    width: 300px;
+    height: 47px;
+    margin-left: 51px;
+  }
+  .xemthem{
+    font-weight: 500;
+    color: #fff;
+    transition: background 1.0s;
+    background: #2b2d29;
+    border-radius: 11px;
+    z-index: 10;
+    
+    font-size: 16px;
+    position: relative;   
+}.xemthem:hover{
+    background: #222321ba;
+    color: #fff;
+}
+
+.tien{
+    margin-top: 20px;
+    width: 400px;
+    border-top: 1px solid #c7c7c7;
+    margin-left: 50px;
+    font-family: cursive;
+    border-bottom: 1px solid #c7c7c7;
+}
+.tien2{
+    margin-top: 20px;
+    width: 400px;
+    margin-left: 50px;
+    font-family: cursive;
+
+}
+.link3{
+    text-decoration: none;
+    color: #2b2d29;
+}
+  
